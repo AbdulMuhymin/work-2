@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  width: 100%;
+  background-color: rgba(23, 23, 23, 0.15);
+  padding: 3px;
+  position: absolute;
+  top: 0;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Logo {
+  width: 120px;
+  height: 90px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-right: 100px;
+  letter-spacing: 1px;
+  font-family: tahoma;
+}
+
+.banner-container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgb(0, 72, 105, 0.849), rgb(3, 90, 133)),
+    url(background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.left-section{
+  width: 600px;
+}
+.left-section h1 {
+  margin: 0;
+  font-size: 40px;
+  color: white;
+  font-family:fangsong;
+}
+.left-section p{
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: rgba(7, 7, 7, 0.945);
+  margin-top: 18px;
+  line-height: 28px;
+}
+.left-section button{
+  margin-top: 1;
+}
+
